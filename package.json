@@ -1,0 +1,26 @@
+{
+  "name": "statusmelder",
+  "version": "1.0.0",
+  "description": "DRK Flugdienst Statusmelder",
+  "main": "app.js",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-mongodb-session": "^3.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "mongoose": "^6.0.0",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "drk",
+    "flugdienst",
+    "statusmelder"
+  ],
+  "author": "Ron Walter",
+  "license": "ISC"
+}
