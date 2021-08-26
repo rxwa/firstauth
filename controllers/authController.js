@@ -62,7 +62,8 @@ module.exports.login_post = async (req, res) => {
     }
     console.log(isMatch)
     req.session.isAuth = true
-
+    
+    // I TRIED RES.RENDER('dashboard') and RES.REDIRECT('DASHBOARD'), didn't work
   }
   catch (err) {
     console.log(err)
