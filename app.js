@@ -11,7 +11,7 @@ const app = express()
 app.set('view engine', 'EJS')
 
 // database connection
-const dbURI = 'mongodb+srv://admin:36EVUSC1EORhnEX8@statusmelder.h3rwa.mongodb.net/statusmelder?retryWrites=true&w=majority'
+const dbURI = 'X'
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true})
   .then(result => app.listen(3000))
   .catch(err => console.log(err))
